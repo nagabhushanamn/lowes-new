@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="mts-app">
+<head>
+<meta charset="UTF-8">
+<title>mts-app</title>
+<link href="bower_components/bootstrap/dist/css/bootstrap.css"
+	rel="stylesheet">
+</head>
+<body class="container">
+
+	<div class="page-header">mts-app</div>
+
+	<div class="col-sm-4 col-md-4">
+		<div class="panel panel-default">
+			<div class="panel-heading">Txr Form</div>
+			<div class="panel-body">
+				<form name="txrForm" ng-controller="TxrController" ng-submit="doTxr()">
+					<div class="form-group">
+						<label>Amount</label> <input class="form-control" ng-model="txrRequest.amount"/>
+					</div>
+					<div class="form-group">
+						<label>From Account</label> <input class="form-control" ng-model="txrRequest.fromAccNum"/>
+					</div>
+					<div class="form-group">
+						<label>To Account</label> <input class="form-control" ng-model="txrRequest.toAccNum"/>
+					</div>
+					<button class="btn btn-primary">Txr</button>
+					<hr/>
+					<div class="alert alert-info">{{status}}</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="./bower_components/angular/angular.js"></script>
+	<script src="./src/mts-app.js"></script>
+
+</body>
+</html>

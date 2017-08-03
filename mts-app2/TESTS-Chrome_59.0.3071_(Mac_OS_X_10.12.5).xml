@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 59.0.3071 (Mac OS X 10.12.5)" package="" timestamp="2017-08-03T11:52:38" id="0" hostname="NAGABHUSHANAMs-MacBook-Pro.local" tests="1" errors="0" failures="0" time="0.001">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"/>
+  </properties>
+  <testcase name="txr-controller suie txr success" time="0.001" classname="Chrome_59_0_3071_(Mac_OS_X_10_12_5).txr-controller suie"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
